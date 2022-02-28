@@ -1,0 +1,18 @@
+# starting the container:
+
+docker run -d -it --name task14 ubuntu sh -c 'echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;'
+
+
+# installing curl:
+
+docker exec -it task14 bash
+
+apt-get update 
+
+apt-get install curl
+
+
+# curling helsinki.fi:
+
+docker attach task14
+helsinki.fi 
