@@ -62,7 +62,7 @@ $ basics
 
 #### Solution:  
 ```
-$ docker build ./files/17_Dockerfile -t web-server
+$ docker build -f ./files/17_Dockerfile ./files/ -t web-server
 $ docker run web-server
 ```
 
