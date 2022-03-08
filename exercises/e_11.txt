@@ -1,4 +1,0 @@
-CONTAINER ID   IMAGE       COMMAND                  CREATED          STATUS                          PORTS      NAMES
-3d103ae39bff   memcached   "docker-entrypoint.s…"   2 minutes ago    Exited (0) About a minute ago              jolly_mcclintock
-700e1db12c49   nginx       "/docker-entrypoint.…"   2 minutes ago    Exited (0) About a minute ago              romantic_germain
-5eddc5cf7ca6   redis       "docker-entrypoint.s…"   2 minutes ago    Up 2 minutes                    6379/tcp   peaceful_euler
