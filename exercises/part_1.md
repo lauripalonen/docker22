@@ -10,6 +10,8 @@
 [1.7 Two line Dockerfile](#17-two-line-dockerfile)  
 [1.8 Image for script](#18-image-for-script)  
 [1.9 Volumes](#19-volumes)  
+[1.10 Ports open](#110-ports-open)  
+
 
 ## 1.1 Getting started  
 **Output:**  
@@ -77,4 +79,8 @@ $ touch text.log
 $ docker run -v "$(pwd)/text.log:/usr/src/app/text.log" devopsdockeruh/simple-web-service
 ```  
 
+## 1.10 Ports open  
 
+**Solution:**
+Run command `$ docker run -p 3001:8080 web-server`.  
+Open browser to address localhost:3001.
