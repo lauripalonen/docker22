@@ -11,7 +11,7 @@
 [1.8 Image for script](#18-image-for-script)  
 [1.9 Volumes](#19-volumes)  
 [1.10 Ports open](#110-ports-open)  
-
+[1.11 Spring](#111-spring)
 
 ## 1.1 Getting started  
 **Output:**  
@@ -84,3 +84,6 @@ $ docker run -v "$(pwd)/text.log:/usr/src/app/text.log" devopsdockeruh/simple-we
 **Solution:**
 Run command `$ docker run -p 3001:8080 web-server`.  
 Open browser to address localhost:3001.
+
+## 1.11 Spring  
+[Link to Dockerfile](./files/111_Dockerfile)
